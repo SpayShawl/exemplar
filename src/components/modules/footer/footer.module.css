@@ -1,0 +1,21 @@
+.footer {
+  background-color: #201900;
+}
+
+.copyright {
+  min-height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}

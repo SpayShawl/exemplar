@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 3em;
+  z-index: 2;
+  transition: all 500ms;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .link {
+  color: white;
+  text-decoration: none;
+  transition: color 150ms;
+}
+
+.nav .link:hover {
+  color: #FFC500;
+}
+
+.nav h1 {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.filled {
+  background-color: white;
+  border-bottom: 1px solid #efefef;
+}
+
+.filled .link {
+  color: black;
+}
+
+.visible {
+  transform: translateY(0);
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
