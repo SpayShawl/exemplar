@@ -1,20 +1,19 @@
 import "./styles/App.css";
 import "./styles/fonts.css";
-import { Header } from "./components/modules/header/header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./components/views/home/home";
-import { Footer } from "./components/modules/footer/footer";
+import { NotFound } from "./components/views/notfound/notfound";
+import { Terms } from "./components/views/terms/terms";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header></Header>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/terms" element={<Terms></Terms>}></Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
-        <div className="space"></div>
-        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

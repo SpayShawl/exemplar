@@ -1,0 +1,32 @@
+{
+  "Lorem": [
+    {
+      "label": "Ipsum",
+      "href": "/ipsum"
+    },
+    {
+      "label": "Dolor",
+      "href": "/dolor"
+    }
+  ],
+  "Sit": [
+    {
+      "label": "Amet",
+      "href": "/amet"
+    }
+  ],
+  "Consectetur" : [
+    {
+      "label": "Adipiscing ",
+      "href": "/adipiscing "
+    },
+    {
+      "label": "Elit",
+      "href": "/elit"
+    },
+    {
+      "label": "Integer",
+      "href": "/integer"
+    }
+  ]
+}

@@ -1,17 +1,64 @@
 .card {
-  width: 344px;
-  border-radius: 10px;
+  width: 344px; /*=> card width*/
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px; /*=> change it to control the corners roundness*/
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  margin: 1em 3em;
+  margin: 1em 3em; /*=> Change it to control the space between cards*/
+
+  font-family: Roboto, "sans-serif"; /*=> Font used by the card*/
+  text-decoration: none;
+  color: black; /*=> font color*/
+
+  transition: transform 500ms ease;
+}
+
+.card:hover {
+  transform: scale(1.025);
 }
 
 .illustration {
-  height: 140px;
+  height: 140px; /*=> image height*/
   width: 100%;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
 
 .content {
-  height: 220px;
+  height: 220px; /*=> content width*/
+  padding: 1em; /*=> space around the content*/
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0 0 0.5em;
+}
+
+.content h2 {
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0 0 0.25em;
+}
+
+.content p {
+  font-size: 17px;
+  margin: 0;
+}
+
+.content::-webkit-scrollbar,
+.content::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 15px;
+  color: #00000020;
+  border: 10px solid transparent;
+}
+
+.content::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
 }

@@ -5,6 +5,7 @@ export const Banner: React.FunctionComponent = () => {
   return (
     <div className={styles.banner}>
       <img src={banner} alt="Bannière d'un paysage de montagne" />
+      <div className={styles.mouseSymbol}></div>
     </div>
   );
 };

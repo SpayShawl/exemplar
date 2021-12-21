@@ -1,7 +1,14 @@
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 0;
 }
 
-.space {
-  height: 1500px;
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+*::selection {
+  background-color: #FFC500;
 }

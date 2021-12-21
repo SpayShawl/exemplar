@@ -5,10 +5,10 @@ export const Footer: React.FunctionComponent = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>
-        <Link className={styles.link} to={"/legal"}>
+        <Link className={styles.link} to={"/terms"}>
           Mentions Légales |
         </Link>
-        <span>| @Copyright Exemplar 2021</span>
+        <span>@Copyright Exemplar 2021</span>
       </div>
     </footer>
   );

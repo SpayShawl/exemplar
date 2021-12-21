@@ -1,0 +1,17 @@
+.container {
+  padding: 4em 15em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container section {
+  margin: 2em 0;
+}
+
+.container h2 {
+  font-weight: 500;
+}
+
+.container a {
+  text-decoration: none;
+  color: #EECA00;
+}

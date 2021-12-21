@@ -1,10 +1,17 @@
+.banner {
+  position: relative;
+}
+
 .banner img {
   height: 100vh;
   width: 100%;
   object-fit:cover;
+}
 
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
+.mouseSymbol {
+  position: absolute;
+  width: 25px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 15px;
 }
