@@ -13,7 +13,7 @@ export const Home: React.FunctionComponent = () => {
       <Header></Header>
       <main>
         <Banner></Banner>
-        <div className={styles.cards}>
+        <div id="test" className={styles.cards}>
           {cards.map((card, index) => {
             return (
               <Card

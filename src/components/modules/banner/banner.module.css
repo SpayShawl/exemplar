@@ -8,10 +8,44 @@
   object-fit:cover;
 }
 
-.mouseSymbol {
+.mouse {
   position: absolute;
-  width: 25px;
+  width: 30px;
   height: 50px;
-  border: 2px solid;
+  border: 1px solid white;
+  border-radius: 25px;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -95%);
+  cursor: pointer;
+}
+
+.scroll {
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background-color: white;
+  left: 50%;
   border-radius: 15px;
+  transform:translateX(-50%);
+  top: 10%;
+  animation: 2s scrolling infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    top: 15%;
+    opacity: 0;
+  }
+
+
+  15% {
+    top: 15%;
+    opacity: 1;
+  }
+
+  100% {
+    top: 50%;
+    opacity: 0;
+  }
 }
